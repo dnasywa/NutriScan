@@ -5,7 +5,7 @@
 ```
 $ git clone https://github.com/dnasywa/NutriScan/tree/main/Machine%20Learning/Dataset
 ```
-4. After training, save the model. You can save it into Keras hdf5 file and convert it into TensorFlow Lite format which has a .tflite file format extension through several optimization processes.
+4. After training, save the model. You can save it into Saved Models or Keras hdf5 file and convert it into TensorFlow Lite format which has a .tflite file format extension through several optimization processes.
 ## Featured Technologies
 - TensorFlow: The core open source library to help you develop and train ML models. Get started quickly by running Colab notebooks directly in your browser.
 - Keras: Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
