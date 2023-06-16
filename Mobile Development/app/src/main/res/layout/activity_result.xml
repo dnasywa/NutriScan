@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ResultActivity"
+    android:background="@color/grey">
+
+    <ImageView
+        android:id="@+id/logo_nutriscan"
+        android:layout_width="395dp"
+        android:layout_height="139dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Resulttittle"
+        android:layout_width="144dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_nutriscan" />
+
+    <TextView
+        android:id="@+id/resultdata"
+        android:layout_width="294dp"
+        android:layout_height="97dp"
+        android:fontFamily="@font/inter"
+        android:gravity="center"
+        android:text="dummy data"
+        android:textColor="@color/text_grey"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Resulttittle" />
+
+    <TextView
+        android:id="@+id/solutiontittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="Solution"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultdata"/>
+
+    <TextView
+        android:id="@+id/solutiondata"
+        android:layout_width="294dp"
+        android:layout_height="97dp"
+        android:fontFamily="@font/inter"
+        android:gravity="center"
+        android:text="dummy data"
+        android:textColor="@color/text_grey"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solutiontittle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

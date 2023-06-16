@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NutriScan</string>
+    <string name="login_page">Login</string>
+    <string name="name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="email">E-Mail</string>
+    <string name="forgot">Forgot Password?</string>
+</resources>
