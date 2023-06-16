@@ -13,14 +13,8 @@ Enable Cloud Run and Cloud Build API
 https://cloud.google.com/sdk/docs/install
 ### 4. Dockerfile, requirements.txt, .dockerignore
 https://cloud.google.com/run/docs/quickstarts/build-and-deploy#containerizing
-### 5. Cloud build & deploy
-```
-gcloud builds submit --tag gcr.io/rice-hero-389314/index
-```
-```
-
-gcloud run deploy --image gcr.io/rice-hero-389314/index --platform managed
-```
+### 5. Deploy In Cloud Run
+https://nutriscan-rvpj3e3pka-uc.a.run.app/predict
 
 ### Test
 Test the code with test/test.py with the Cloud Build image URL
