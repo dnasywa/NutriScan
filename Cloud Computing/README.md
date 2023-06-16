@@ -14,7 +14,6 @@ https://cloud.google.com/sdk/docs/install
 ### 4. Dockerfile, requirements.txt, .dockerignore
 https://cloud.google.com/run/docs/quickstarts/build-and-deploy#containerizing
 ### 5. Deploy In Cloud Run
-https://nutriscan-rvpj3e3pka-uc.a.run.app
-
+Set several things such as Instance, Port, and other resources, then start deploy with Cloud Run
 ### Test
-Test the code with test/test.py with the Cloud Build image URL
+Test the code using https://nutriscan-rvpj3e3pka-uc.a.run.app/predict in postman and upload the image file
